@@ -2,7 +2,7 @@ name: Build and deploy app
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build-and-deploy-app:
     permissions:
